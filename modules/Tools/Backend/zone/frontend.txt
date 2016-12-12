@@ -1,0 +1,17 @@
+<?php
+namespace Modules\{folder}\Frontend;
+use Remios\Apps\Main;
+class {controller} extends Main
+{
+	
+	public function __construct()
+    {
+        parent::__construct();
+    }
+	function getIndex($a=""){
+		return views("{views}");
+    }
+
+    
+}
+?>
