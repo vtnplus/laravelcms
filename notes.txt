@@ -1,0 +1,6 @@
+Ve nha tinh tiep phan save images khi check da ton tai.
+Images da saves duoc vao database. 
+Chua resize cho posts
+Cac images khi save chua remove number prefix de tang SEO
+
+

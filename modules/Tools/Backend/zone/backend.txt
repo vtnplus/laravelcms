@@ -1,0 +1,86 @@
+<?php
+namespace Modules\{folder}\Backend;
+use Remios\Apps\Admin;
+class {controller} extends Admin
+{
+	
+    public function __construct()
+    {
+        parent::__construct();
+    }
+	function getIndex($a=""){
+        $data = db("{folder}::{models}")->rows(20);
+		return views("{views}",["data" => $data]);
+    }
+
+    function postIndex($a=""){
+    }
+
+    function getEdit($id=null, $filter=""){
+        $data = db("{folder}::{models}")->find($id);
+    	return views("{views}-edit",["data" => $data]);
+    }
+
+    function postEdit($id=null,$filter=""){
+    	$data = db("{folder}::{models}")->find($id);
+        if(!$data){
+            return redirect(admin_url(strtolower("{folder}/{controller}"),false))->with("error", lang("{lang}.error_update"));
+        }
+        $input = [
+            //'title' => input("title"),
+        ];
+        $rules = [
+            //'title' => 'required|unique:posts|max:255',
+        ];
+        $validator = app("validator")->make($input, $rules);
+        if ($validator->fails()) {
+            return redirect()
+                        ->back()
+                        ->withErrors($validator)
+                        ->withInput();
+        }else{
+            {editter_maps}
+            $data->save();
+            return redirect(admin_url(strtolower("{folder}/{controller}"),false))->with("success", lang("{lang}.success_update"));
+        }
+    }
+
+
+    function getCreate(){
+        $id = db("{folder}::{models}")->insertGetId(
+            array('created_at' => date("Y-m-d h:i:s"))
+        );
+        return redirect(admin_url(strtolower("{folder}/{controller}/edit/".$id),false))->with("success", lang("{lang}.success_create"));
+    }
+
+    function getDelete($id=null){
+        $data = db("{folder}::{models}")->find($id);
+        if($data){
+            $data->delete();
+            return redirect()->back()->with("success", lang("{lang}.success_delete"));
+        }else{
+            return redirect()->back()->with("error", lang("{lang}.error_delete"));
+        }
+        
+    }
+
+    /*
+	Show Function API
+    */
+    function putIndex(){
+
+    }
+
+    function patchIndex(){
+
+    }
+
+    function deleteIndex(){
+
+    }
+
+    function optionsIndex(){
+
+    }
+}
+?>

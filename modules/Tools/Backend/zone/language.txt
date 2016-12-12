@@ -1,0 +1,11 @@
+<?php
+return [
+"name" => "{name}",
+"success_update" => "Update {name} Success",
+"error_update" => "Update {name} Error",
+"success_create" => "Create {name} Success",
+"error_create" => "Create {name} Error",
+"success_delete" => "Delete {name} Success",
+"error_delete" => "Delete {name} Error",
+{content}
+];

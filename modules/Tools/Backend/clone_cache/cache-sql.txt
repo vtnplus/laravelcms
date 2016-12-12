@@ -1,0 +1,39 @@
+$updateid = '{hascode}';
+
+$arv = array(
+            'keyword'   => $updateid,
+            'language' => getLanguage(),
+            'stores_id' => getStores(),
+            'users_id'  => getAuth(),
+            'type'  => $type,
+            'title'     =>  '{title}',
+            'status'    =>  1,
+            'content'   => '{content}',
+            'gallery'   =>  '{gallery}',
+            'thumbs'    =>  '{thumbs}',
+            'created_at' => date("Y-m-d h:i:s"),
+            'seo_urls'  => str_slug('{title}').'.html',
+            );
+    $arvs = array(
+            {customs}
+    );
+$arv = array_merge($arv, $arvs);
+
+$read = db("Posts::Posts",$type)->language()->stores()->where("type",$type)->where("keyword",$updateid)->first();
+if($read){
+    $read->title     =  $arv["title"];
+    $read->content   =  $arv["content"];
+    $read->gallery   =  $arv["gallery"];
+    $read->thumbs    =  $arv["thumbs"];
+    $read->updated_at = date("Y-m-d h:i:s");
+    $read->seo_urls  = str_slug($arv["title"]).'.html';
+    {customs_update}
+    $read = support()->beforeSave($read);
+    $read->save();
+}else{
+
+    $data = support()->beforeCreate($arv);
+    $id = db("Posts::Posts",$type)->insertGetId(
+        $data
+    );
+}

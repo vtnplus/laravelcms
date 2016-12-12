@@ -1,0 +1,931 @@
+.stickers{
+	position: absolute;
+	top: -8px;
+	left:40%;
+}
+.content img{
+	max-width: 100%;
+	height: auto;
+}
+
+.col-xs-5c,
+.col-sm-5c,
+.col-md-5c,
+.col-lg-5c {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5c {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5c {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5c {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5c {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+.navbar-menu{
+	margin-bottom: 0;
+	border-radius:0;
+	border:0;
+	
+	background-color: transparent;
+	z-index: 10;
+	
+}
+
+.navbar-menu .mega{
+	position: static !important;
+}
+.navbar-menu .mega > .dropdown-menu{
+	width: 100%;
+	margin-left:0px !important;
+	border:0px;
+	padding: 30px;
+}
+.navbar-menu .navbar-nav .dropdown-menu{
+	margin-top: 0px;
+	margin-left:-1px; 
+	border-top:0;
+}
+.navbar-menu .navbar-right .dropdown-menu{
+	margin-left:auto;
+	margin-right: -1px; 
+}
+
+.navbar-menu .navbar-nav > li:first-child{
+	border-left:0;
+}
+
+.navbar-menu .navbar-nav > li:last-child{
+	border-right:0;
+}
+
+
+
+
+.row-flex.row {
+  display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+
+}
+.row-flex.row > [class*='col-'] {
+  display: flex;
+  
+  flex-direction: column;
+}
+[swipe="left"]{
+	position: fixed;
+	height: 100%;
+	background-color: transparent;
+	width: 100%;
+	left: -100%;
+	z-index: 9999999;
+	overflow: hidden;
+	margin-left:15px; 
+	 -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
+}
+[swipe="left"].active{
+	left:0;
+	margin-left: 0;
+}
+
+[swipe="right"]{
+	position: fixed;
+	height: 100%;
+	background-color: transparent;
+	width: 100%;
+	right: -100%;
+	margin-right:15px; 
+	z-index: 9999998;
+	overflow: hidden;
+	 -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
+}
+[swipe="right"].active {
+	right: 0;
+	margin-right:0; 
+}
+
+[swipe="left"] .swipe-container, [swipe="right"] .swipe-container{
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	background-color: rgba(255,255,255,0.85);
+	max-width: 480px;
+	
+}
+[swipe="left"] .swipe-container{
+	left:-15px;
+}
+[swipe="left"].active .swipe-container{
+	left:0px;
+}
+
+
+[swipe="right"] .swipe-container{
+	right:-15px;
+}
+[swipe="right"].active .swipe-container{
+	right:0px;
+}
+
+.swipe-menu{
+	position: absolute;
+	width: 80%;
+	background-color: #FFF;
+	height: 100%;
+	overflow: auto;
+}
+[swipe="right"] .swipe-menu{
+	right: 0;
+}
+.swipe-menu > div{
+	position: relative;
+	padding: 15px;
+}
+.swipe-menu .navbar-nav{
+	float: none;
+}
+.swipe-menu  .iconcaret{
+	float: right;
+}
+
+.swipe-menu .dropdown-toggle{
+ font-weight: bold;
+ background-color: #3D859F;
+ color:#FFF;
+}
+.swipe-menu .dropdown-menu{
+	float: none;
+	position: static;
+	display: block;
+	border-radius:0;
+	border:0; 
+	box-shadow: none;
+}
+.swipe-menu .dropdown-menu a{
+	border-bottom: 1px solid #ddd;
+
+}
+.swipe-menu .dropdown-menu a:hover{
+	background-color: #f3f3f3;
+}
+.swipe-menu .dropdown-menu li:last-child a{
+	border-bottom:0px;
+}
+.swipe-menu .nav li{
+	float: none;
+	display: block;
+}
+.swipe-menu .dropdown-menu .dropdown-menu li a{
+	margin-left:30px; 
+}
+
+
+
+
+.color-default.hover-default a:hover .iconbox-icon:after {
+	-webkit-animation: sonar-default 1.3s ease-out 75ms;
+	-moz-animation: sonar-default 1.3s ease-out 75ms;
+	animation: sonar-default 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonar-default {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #FFF, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #FFF, 0 0 0 10px rgba(255,255,255,0.5);
+		-webkit-transform: scale(1.5);
+		opacity: 0;
+	}
+}
+@-moz-keyframes sonar-default {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #FFF, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #FFF, 0 0 0 10px rgba(255,255,255,0.5);
+		-moz-transform: scale(1.5);
+		opacity: 0;
+	}
+}
+@keyframes sonar-default {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #FFF, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #FFF, 0 0 0 10px rgba(255,255,255,0.5);
+		transform: scale(1.5);
+		opacity: 0;
+	}
+}
+
+/*
+Gender Eff Hover Icons primary
+*/
+.color-primary.hover-default a:hover .iconbox-icon:after {
+	-webkit-animation: sonar-primary 1.3s ease-out 75ms;
+	-moz-animation: sonar-primary 1.3s ease-out 75ms;
+	animation: sonar-primary 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonar-primary {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #337ab7, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #337ab7, 0 0 0 10px rgba(255,255,255,0.5);
+		-webkit-transform: scale(1.5);
+		opacity: 0;
+	}
+}
+@-moz-keyframes sonar-primary {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #337ab7, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #337ab7, 0 0 0 10px rgba(255,255,255,0.5);
+		-moz-transform: scale(1.5);
+		opacity: 0;
+	}
+}
+@keyframes sonar-primary {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #337ab7, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #337ab7, 0 0 0 10px rgba(255,255,255,0.5);
+		transform: scale(1.5);
+		opacity: 0;
+	}
+}
+
+/*
+Gender Eff Hover Icons success
+*/
+.color-success.hover-default a:hover .iconbox-icon:after {
+	-webkit-animation: sonar-success 1.3s ease-out 75ms;
+	-moz-animation: sonar-success 1.3s ease-out 75ms;
+	animation: sonar-success 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonar-success {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #5cb85c, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #5cb85c, 0 0 0 10px rgba(255,255,255,0.5);
+		-webkit-transform: scale(1.5);
+		opacity: 0;
+	}
+}
+@-moz-keyframes sonar-success {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #5cb85c, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #5cb85c, 0 0 0 10px rgba(255,255,255,0.5);
+		-moz-transform: scale(1.5);
+		opacity: 0;
+	}
+}
+@keyframes sonar-success {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #5cb85c, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #5cb85c, 0 0 0 10px rgba(255,255,255,0.5);
+		transform: scale(1.5);
+		opacity: 0;
+	}
+}
+
+/*
+Gender Eff Hover Icons info
+*/
+.color-info.hover-default a:hover .iconbox-icon:after {
+	-webkit-animation: sonar-info 1.3s ease-out 75ms;
+	-moz-animation: sonar-info 1.3s ease-out 75ms;
+	animation: sonar-info 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonar-info {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #5bc0de, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #5bc0de, 0 0 0 10px rgba(255,255,255,0.5);
+		-webkit-transform: scale(1.5);
+		opacity: 0;
+	}
+}
+@-moz-keyframes sonar-info {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #5bc0de, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #5bc0de, 0 0 0 10px rgba(255,255,255,0.5);
+		-moz-transform: scale(1.5);
+		opacity: 0;
+	}
+}
+@keyframes sonar-info {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #5bc0de, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #5bc0de, 0 0 0 10px rgba(255,255,255,0.5);
+		transform: scale(1.5);
+		opacity: 0;
+	}
+}
+
+/*
+Gender Eff Hover Icons warning
+*/
+.color-warning.hover-default a:hover .iconbox-icon:after {
+	-webkit-animation: sonar-warning 1.3s ease-out 75ms;
+	-moz-animation: sonar-warning 1.3s ease-out 75ms;
+	animation: sonar-warning 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonar-warning {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #f0ad4e, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #f0ad4e, 0 0 0 10px rgba(255,255,255,0.5);
+		-webkit-transform: scale(1.5);
+		opacity: 0;
+	}
+}
+@-moz-keyframes sonar-warning {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #f0ad4e, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #f0ad4e, 0 0 0 10px rgba(255,255,255,0.5);
+		-moz-transform: scale(1.5);
+		opacity: 0;
+	}
+}
+@keyframes sonar-warning {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #f0ad4e, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #f0ad4e, 0 0 0 10px rgba(255,255,255,0.5);
+		transform: scale(1.5);
+		opacity: 0;
+	}
+}
+
+/*
+Gender Eff Hover Icons danger
+*/
+.color-danger.hover-default a:hover .iconbox-icon:after {
+	-webkit-animation: sonar-danger 1.3s ease-out 75ms;
+	-moz-animation: sonar-danger 1.3s ease-out 75ms;
+	animation: sonar-danger 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonar-danger {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #d9534f, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #d9534f, 0 0 0 10px rgba(255,255,255,0.5);
+		-webkit-transform: scale(1.5);
+		opacity: 0;
+	}
+}
+@-moz-keyframes sonar-danger {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #d9534f, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #d9534f, 0 0 0 10px rgba(255,255,255,0.5);
+		-moz-transform: scale(1.5);
+		opacity: 0;
+	}
+}
+@keyframes sonar-danger {
+	0% {
+		opacity: 0.3;
+	}
+	40% {
+		opacity: 0.5;
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #d9534f, 0 0 0 10px rgba(255,255,255,0.5);
+	}
+	100% {
+		box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #d9534f, 0 0 0 10px rgba(255,255,255,0.5);
+		transform: scale(1.5);
+		opacity: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Effect 1 */
+.hover-primary .iconbox-icon {
+	-webkit-transition: background 0.2s, color 0.2s;
+	-moz-transition: background 0.2s, color 0.2s;
+	transition: background 0.2s, color 0.2s;
+}
+
+.hover-primary .iconbox-icon:after {
+	top: -7px;
+	left: -7px;
+	padding: 7px;
+	box-shadow: 0 0 0 4px #FFF;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-webkit-transform: scale(.8);
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	-moz-transform: scale(.8);
+	-ms-transform: scale(.8);
+	transition: transform 0.2s, opacity 0.2s;
+	transform: scale(.8);
+	opacity: 0;
+}
+
+.color-default.hover-primary a:hover .iconbox-icon:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+
+.color-primary.hover-primary a:hover .iconbox-icon:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.color-success.hover-primary a:hover .iconbox-icon:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+
+.color-info.hover-primary a:hover .iconbox-icon:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+
+.color-warning.hover-primary a:hover .iconbox-icon:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+
+.color-danger.hover-primary a:hover .iconbox-icon:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Effect 7 */
+.hover-success .iconbox-icon {
+	
+	-webkit-transition: background 0.2s, color 0.2s;
+	-moz-transition: background 0.2s, color 0.2s;
+	transition: background 0.2s, color 0.2s;	
+}
+
+.hover-success .iconbox-icon:after {
+	top: -8px;
+	left: -8px;
+	padding: 8px;
+	z-index: -1;
+	opacity: 0;
+
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	-webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+	-moz-transition: opacity 0.2s, -moz-transform 0.2s;
+	transition: opacity 0.2s, transform 0.2s;
+}
+
+.hover-success .iconbox-icon:before {
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.7;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	transition: transform 0.2s, opacity 0.2s;
+}
+
+.hover-success a:hover .iconbox-icon:after {
+	opacity: 1;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
+
+
+.hover-success a:hover .iconbox-icon:before {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+.color-default.hover-success .iconbox-icon:after {
+		box-shadow: 3px 3px #FFF;
+}
+
+
+.color-primary.hover-success .iconbox-icon:after {
+	
+	box-shadow: 3px 3px #337ab7;
+	
+}
+
+
+
+.color-success.hover-success .iconbox-icon:after {
+	
+	box-shadow: 3px 3px #5cb85c;
+	
+}
+
+
+
+.color-info.hover-success .iconbox-icon:after {
+	
+	box-shadow: 3px 3px #5bc0de;
+	
+}
+
+
+.color-warning.hover-success .iconbox-icon:after {
+	
+	box-shadow: 3px 3px #f0ad4e;
+	
+}
+
+
+.color-danger.hover-success .iconbox-icon:after {
+	
+	box-shadow: 3px 3px #d9534f;
+	
+}
+
+
+
+
+
+
+@-webkit-keyframes spinAround {
+	from {
+		-webkit-transform: rotate(0deg)
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+@-moz-keyframes spinAround {
+	from {
+		-moz-transform: rotate(0deg)
+	}
+	to {
+		-moz-transform: rotate(360deg);
+	}
+}
+@keyframes spinAround {
+	from {
+		transform: rotate(0deg)
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+
+/* Effect 6 */
+.hover-info .iconbox-icon {
+	-webkit-transition: background 0.2s, color 0.2s;
+	-moz-transition: background 0.2s, color 0.2s;
+	transition: background 0.2s, color 0.2s;
+}
+
+
+
+.hover-info a:hover .iconbox-icon {
+	-webkit-animation: spinAround 2s linear infinite;
+	-moz-animation: spinAround 2s linear infinite;
+	animation: spinAround 2s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+/* Effect 3 */
+.hover-warning .iconbox-icon {
+box-shadow: 0 0 0 4px #fff;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+	color:#FFF;
+}
+
+.hover-warning .iconbox-icon:after {
+	top: -2px;
+	left: -2px;
+	padding: 2px;
+	z-index: -1;
+
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.7s;
+	-moz-transition: -moz-transform 0.5s, opacity 0.7s;
+	transition: transform 0.5s, opacity 0.7s;
+}
+
+.hover-warning a:hover .iconbox-icon:after {
+
+	-webkit-transform: scale(1.4);
+	-moz-transform: scale(1.4);
+	-ms-transform: scale(1.4);
+	transform: scale(1.4);
+	opacity: 0.1;
+}
+.color-default.hover-warning .iconbox-icon{
+	color:#000;
+}
+.color-default.hover-warning .iconbox-icon:after {
+	background: #FFF;
+}
+
+
+.color-primary.hover-warning .iconbox-icon:after {
+	
+background: #337ab7;
+	
+}
+
+
+.color-success.hover-warning .iconbox-icon:after {
+	
+background: #5cb85c;
+	
+}
+
+
+.color-info.hover-warning .iconbox-icon:after {
+	
+background: #5bc0de;
+	
+}
+
+
+.color-warning.hover-warning .iconbox-icon:after {
+	
+background: #f0ad4e;
+	
+}
+
+
+.color-danger.hover-warning .iconbox-icon:after {
+	
+background: #d9534f;
+	
+}
+
+
+
+
+
+
+@-webkit-keyframes toBottomFromTop {
+	49% {
+		-webkit-transform: translateY(100%);
+	}
+	50% {
+		opacity: 0;
+		-webkit-transform: translateY(-100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes toBottomFromTop {
+	49% {
+		-moz-transform: translateY(100%);
+	}
+	50% {
+		opacity: 0;
+		-moz-transform: translateY(-100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+@keyframes toBottomFromTop {
+	49% {
+		transform: translateY(100%);
+	}
+	50% {
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+
+
+
+
+/* Effect 5 */
+.hover-danger .iconbox-icon {
+	overflow: hidden;
+	-webkit-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+	-moz-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+	transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.hover-danger .iconbox-icon:after {
+	display: none;
+}
+
+.color-default.hover-danger a:hover .iconbox-icon {
+	background:  transparent;
+	box-shadow: 0 0 0 8px rgba(255,255,255,0.1);
+}
+.hover-danger a:hover .iconbox-icon i{
+	-webkit-animation: toBottomFromTop 0.3s forwards;
+	-moz-animation: toBottomFromTop 0.3s forwards;
+	animation: toBottomFromTop 0.3s forwards;
+}
+.color-default.hover-danger a:hover .iconbox-icon {
+	background: #FFF;
+}
+
+
+.color-primary.hover-danger a:hover .iconbox-icon {
+	background: #337ab7;
+	
+}
+
+
+.color-success.hover-danger a:hover .iconbox-icon {
+	background: #5cb85c;
+	
+}
+
+
+.color-info.hover-danger a:hover .iconbox-icon {
+	background: #5bc0de;
+	
+}
+
+
+.color-warning.hover-danger a:hover .iconbox-icon {
+	background: #f0ad4e;
+	
+}
+
+.color-danger.hover-danger a:hover .iconbox-icon {
+	background: #d9534f;
+	
+}

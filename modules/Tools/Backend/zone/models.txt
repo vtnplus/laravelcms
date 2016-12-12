@@ -1,0 +1,9 @@
+<?php
+namespace Modules\{folder}\Models;
+use Remios\Utils\Database\DBQuery;
+class {controller} extends DBQuery{
+	protected $table = '{table}';
+	public $timestamps = false;
+	
+	{content}
+}

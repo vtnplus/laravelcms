@@ -1,0 +1,27 @@
+<?php return 
+array (
+  'navbar-nav' => '#93b7e3',
+  'btn-default' => '#516b91',
+  'btn-primary' => '#59c4e6',
+  'btn-success' => '#edafda',
+  'btn-info' => '#93b7e3',
+  'btn-warning' => '#a5e7f0',
+  'btn-danger' => '#cbb0e3',
+  'alert-success' => '#edafda',
+  'alert-info' => '#93b7e3',
+  'alert-warning' => '#a5e7f0',
+  'alert-danger' => '#cbb0e3',
+  'a' => '#93b7e3',
+  'code' => '#516b91',
+  'h1' => '#516b91',
+  'h2' => '#516b91',
+  'h3' => '#516b91',
+  'h4' => '#516b91',
+  'h5' => '#516b91',
+  'h6' => '#516b91',
+  'h7' => '#516b91',
+  'p' => '#516b91',
+  'div' => '#516b91',
+  'b' => '#516b91',
+)
+?>

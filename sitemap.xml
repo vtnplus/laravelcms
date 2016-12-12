@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+            <url>
+                <loc>http://localhost/pages/trang-chu.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/about</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/about/cong-ty-chinh.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/about/chuong-trinh-da-lam.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/about/lich-su-phat-trien.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/about/dich-vu-khach-hang.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/about/doi-tac.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/about/doi-ngu-nhan-vien.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/travel</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/tour-vietnam/tour-mien-bac.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/tour-vietnam/tour-mien-trung.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/tour-vietnam/tour-mien-nam.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/travel/tour-vietnam.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/tour-vietnam/tour-tu-chon.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/tour-vietnam/tour-gold.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/tour-vietnam/tour-nghi-duong.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/pages/lien-he.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/services</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/services/khach-san.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/services/nha-dan.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>monthly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/catalog/destops.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/catalog/laptop-notebook.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/catalog/components.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/catalog/tablets.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/catalog/software.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/catalog/phones-pdas.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/catalog/cameras.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/catalog/mp3-players.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/travel/catalog/test.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/posts?pid=1</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>daily</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/posts?pid=2</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>daily</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/posts/new-document.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>daily</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/posts/new-document.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>daily</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/posts/new-document.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>daily</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/posts/new-document.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>daily</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/destination/ha-long.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>daily</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/posts?pid=8</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>daily</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/posts?pid=9</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>daily</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/gallery/hoi-lim.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>daily</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/gallery/bong-da.html</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>daily</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+
+            <url>
+                <loc>http://localhost/services?pid=12</loc>
+                <lastmod>2016-11-24T03:46:15+00:00</lastmod>
+                <changefreq>daily</changefreq>
+                <priority>0.8</priority>
+            </url>
+            
+</urlset>
